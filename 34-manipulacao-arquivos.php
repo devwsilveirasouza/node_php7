@@ -31,7 +31,7 @@
 
  while(!feof($arquivoAberto)):
     $linha = fgets($arquivoAberto, $tamanhoArquivo);    
-    echo $linha;
+    echo $linha."<br>";
  endwhile;
 
  fclose($arquivoAberto);
